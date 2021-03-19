@@ -1,0 +1,2 @@
+/Users/yuravishnyakov/Projects/BalanceMaster/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/yuravishnyakov/Projects/BalanceMaster/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
