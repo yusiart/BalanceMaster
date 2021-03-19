@@ -67,7 +67,6 @@
             <e p="Player.cs" t="Include" />
             <e p="PlayerMover.cs" t="Include" />
           </e>
-          <e p="Rope.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="Menu.cs" t="Include" />
             <e p="MoneyDisplay.cs" t="Include" />

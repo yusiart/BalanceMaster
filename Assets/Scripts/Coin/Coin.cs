@@ -5,7 +5,8 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     [SerializeField] private int _coinPrice;
-    
+    [SerializeField] private ParticleSystem _collectEffect;
+
     public int GetReward()
     {
         return _coinPrice;
@@ -13,6 +14,7 @@ public class Coin : MonoBehaviour
 
     public void Destroy()
     {
+        _collectEffect.Play();
         gameObject.SetActive(false);
     }
 }

@@ -24,7 +24,7 @@ public class ObjectPool : MonoBehaviour
     protected bool TryToGetObject(out GameObject result)
     {
         result = _pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
-
+        
         return result != null;
     }
 }
