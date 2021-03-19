@@ -72,14 +72,15 @@
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
      <Compile Include="Assets\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
-     <Compile Include="Assets\Scripts\Building.cs" />
-     <Compile Include="Assets\Scripts\BuildingSpawn.cs" />
+     <Compile Include="Assets\Scripts\Building\Building.cs" />
+     <Compile Include="Assets\Scripts\Building\BuildingMover.cs" />
+     <Compile Include="Assets\Scripts\Building\BuildingSpawner.cs" />
      <Compile Include="Assets\Scripts\Coin\Coin.cs" />
      <Compile Include="Assets\Scripts\Coin\CoinMover.cs" />
      <Compile Include="Assets\Scripts\Coin\CoinSpawner.cs" />
-     <Compile Include="Assets\Scripts\CoinDestroyer.cs" />
+     <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\ObjectMover.cs" />
      <Compile Include="Assets\Scripts\ObjectPool.cs" />
-     <Compile Include="Assets\Scripts\Player\CoinCollector.cs" />
      <Compile Include="Assets\Scripts\Player\Gravity.cs" />
      <Compile Include="Assets\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMover.cs" />
@@ -128,20 +129,20 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Users/yuravishnyakov/Games/2019.4.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,11 +324,11 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>/Users/yuravishnyakov/Projects/BalanceMaster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Users/yuravishnyakov/Games/2019.4.6f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

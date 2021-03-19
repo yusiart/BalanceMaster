@@ -49,17 +49,20 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Building.cs" t="Include" />
-          <e p="BuildingSpawn.cs" t="Include" />
+          <e p="Building" t="Include">
+            <e p="Building.cs" t="Include" />
+            <e p="BuildingMover.cs" t="Include" />
+            <e p="BuildingSpawner.cs" t="Include" />
+          </e>
           <e p="Coin" t="Include">
             <e p="Coin.cs" t="Include" />
             <e p="CoinMover.cs" t="Include" />
             <e p="CoinSpawner.cs" t="Include" />
           </e>
-          <e p="CoinDestroyer.cs" t="Include" />
+          <e p="Destroyer.cs" t="Include" />
+          <e p="ObjectMover.cs" t="Include" />
           <e p="ObjectPool.cs" t="Include" />
           <e p="Player" t="Include">
-            <e p="CoinCollector.cs" t="Include" />
             <e p="Gravity.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerMover.cs" t="Include" />

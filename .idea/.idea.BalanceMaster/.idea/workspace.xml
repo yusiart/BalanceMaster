@@ -1,11 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d520d62-287b-4ebd-b68f-9f98d7963725" name="Default Changelist" comment="" />
+    <list default="true" id="8d520d62-287b-4ebd-b68f-9f98d7963725" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BalanceMaster/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BalanceMaster/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BalanceMaster/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BalanceMaster/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BalanceMaster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BalanceMaster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Read Me.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Read Me/Read Me-converti.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Read Me/Read Me-converti.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100c.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/200.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/500.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50c.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/AWESOME___.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/AWESOME___.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Amazing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Amazing.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Rectangle Progress Bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Rectangle Progress Bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background tuto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background tuto.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Barre de progression 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Barre de progression 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Blue Elipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Blue Elipse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Button Pub Continue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Button Pub Continue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Case level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Case level.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Curseur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Curseur.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Good.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Green Elipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Green Elipse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/KILL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/KILL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/NO THANKS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/NO THANKS.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline Bar Progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline Bar Progress.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Press to.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Press to.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Purple Elipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Purple Elipse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Radial Shine White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Radial Shine White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/TRY AGAIN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/TRY AGAIN.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tap to continue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tap to continue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Triumph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Triumph.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tuto Ellipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tuto Ellipse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Waouh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Waouh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Yellow Elipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Yellow Elipse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/success.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Building.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Building.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildingSpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildingSpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Coin/CoinMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Coin/CoinMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinDestroyer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinDestroyer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CoinCollector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CoinCollector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/41/413668578e404f57bdeb8a5b33de567b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f3/f379776055b6381efe816db99f4ef5d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/25412a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/25412a-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/4f3b57-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/4f3b57-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0af25128bcbd14f839646961ee6d5ea9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3897466774df944729a5687fce4ec4c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7202e09e1f8a04f8392331f7b8cb369c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -16,7 +171,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Rope.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gravity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BuildingSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinSpawner.cs" />
@@ -24,18 +178,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MoneyDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Coin/CoinMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinDestroyer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Coin/CoinSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coin/Coin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BuildingSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coin/CoinMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Building/BuildingMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Building/Building.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coin/CoinSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Building/BuildingGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Building/BuildingSpawner.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1pvPl6ULNsyyioNUKIG3LSaHo8p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,6 +240,7 @@
       <workItem from="1616060747008" duration="10252000" />
       <workItem from="1616080128987" duration="1740000" />
       <workItem from="1616143443943" duration="11000" />
+      <workItem from="1616144996380" duration="4606000" />
     </task>
     <servers />
   </component>
