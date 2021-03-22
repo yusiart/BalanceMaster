@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-    
     public void OpenPanel(GameObject panel)
     {
         Time.timeScale = 0;

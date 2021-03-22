@@ -8,6 +8,6 @@ public class ObjectMover : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(0, 0, -_speed * Time.deltaTime);
+       transform.position += new Vector3(0, 0, -_speed * Time.deltaTime);
     }
 }
