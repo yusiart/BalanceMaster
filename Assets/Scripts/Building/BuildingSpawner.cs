@@ -38,6 +38,7 @@ public class BuildingSpawner : ObjectPool
     {
         building.gameObject.SetActive(true);
         building.transform.position = spawnPoint.transform.position;
+        building.transform.rotation = spawnPoint.transform.rotation;
     }
 
     private void GenerateBuildings()

@@ -58,9 +58,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
+     <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
      <Compile Include="Assets\Scripts\Building\Building.cs" />
      <Compile Include="Assets\Scripts\Building\BuildingMover.cs" />
      <Compile Include="Assets\Scripts\Building\BuildingSpawner.cs" />
+     <Compile Include="Assets\Scripts\Car\Car.cs" />
+     <Compile Include="Assets\Scripts\Car\CarDestroyer.cs" />
+     <Compile Include="Assets\Scripts\Car\CarMover.cs" />
+     <Compile Include="Assets\Scripts\Car\CarSpawner.cs" />
      <Compile Include="Assets\Scripts\Coin\Coin.cs" />
      <Compile Include="Assets\Scripts\Coin\CoinMover.cs" />
      <Compile Include="Assets\Scripts\Coin\CoinSpawner.cs" />
@@ -78,16 +85,21 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Particle\Prefabs\Combat\Combat FX.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\Particle\Prefabs\Interactive\Interactive FX.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
