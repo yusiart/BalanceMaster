@@ -1,13 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CarMover : MonoBehaviour
+public class CarMover : ObjectMover
 {
-    [SerializeField] private float _speed;
-
-    private void Update()
-    {
-        transform.localPosition += new Vector3(0, 0, -_speed * Time.deltaTime);
-    }
 }

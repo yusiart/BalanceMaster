@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Coin : Object
 {
     [SerializeField] private int _coinPrice;
     [SerializeField] private ParticleSystem _collectCoin;
@@ -12,10 +9,5 @@ public class Coin : MonoBehaviour
     {
         Instantiate(_collectCoin, transform.position, Quaternion.identity);
         return _coinPrice;
-    }
-
-    public void Destroy()
-    {
-        gameObject.SetActive(false);
     }
 }

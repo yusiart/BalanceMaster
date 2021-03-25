@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CarMover))]
-public class Car : MonoBehaviour
+public class Car : Object
 {
-    public void Destroy()
-    {
-        gameObject.SetActive(false);
-    }
 }

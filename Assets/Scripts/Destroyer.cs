@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Destroyer : MonoBehaviour
 {
+    [SerializeField] private GameObject _panel;
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.TryGetComponent(out Coin coin))
@@ -14,6 +16,19 @@ public class Destroyer : MonoBehaviour
         else if (other.gameObject.TryGetComponent(out Building building))
         {
             building.Destroy();
+        }
+        else if (other.gameObject.TryGetComponent(out Player player))
+        {
+            player.Die();
+            _panel.SetActive(true);
+        }
+        else if (other.gameObject.TryGetComponent(out Car car))
+        {
+            car.Destroy();
+        }
+        else if (other.gameObject.TryGetComponent(out Bird bird))
+        {
+            bird.Destroy();
         }
     }
 }

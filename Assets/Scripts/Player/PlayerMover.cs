@@ -33,16 +33,6 @@ public class PlayerMover : MonoBehaviour
        _rigidbody.velocity = down;
    }
 
-   public void MoveRight()
-   {
-       transform.position = Vector3.Lerp(transform.position, Vector3.right, _speed * Time.deltaTime);
-   }
-
-   public void MoveLeft()
-   {
-       transform.position = Vector3.Lerp(transform.position, Vector3.left, _speed * Time.deltaTime);
-   }
-
    private void GravityMove()
    {
        if (transform.position.x < 0)
@@ -54,5 +44,15 @@ public class PlayerMover : MonoBehaviour
        {
            transform.Translate(Vector3.right * (_gravityStrengh * Time.deltaTime));
        }
+   }
+   
+   public void MoveRight()
+   {
+       transform.position = Vector3.Lerp(transform.position, Vector3.right, _speed * Time.deltaTime);
+   }
+
+   public void MoveLeft()
+   {
+       transform.position = Vector3.Lerp(transform.position, Vector3.left, _speed * Time.deltaTime);
    }
 }

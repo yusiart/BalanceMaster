@@ -4,20 +4,6 @@ using UnityEngine;
 
 public class CarSpawner : ObjectPool
 {
-    [SerializeField] private List<GameObject>  _carTemplate;
-    [SerializeField] private float _timeToSpawn;
-    [SerializeField] private List<Transform> _spawnPoints;
-
-    private float _timer;
-
-    private void Start()
-    {
-        foreach (var car in _carTemplate)
-        {
-            Initialize(car);
-        }
-    }
-
     private void Update()
     {
         _timer += Time.deltaTime;

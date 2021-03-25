@@ -5,21 +5,12 @@ using UnityEngine;
 
 public class BuildingSpawner : ObjectPool
 {
-    [SerializeField] private List<GameObject> _buildingTemplates;
-    [SerializeField] private float _timeToSpawn;
-    [SerializeField] private List<Transform> _spawnPoints;
     [SerializeField] private int _generatedBuildingCount;
 
     private float _distanceBetweenBuilding;
-    private float _timer;
 
     private void Start()
     {
-        foreach (var building in _buildingTemplates)
-        {
-            Initialize(building);
-        }
-
         GenerateBuildings();
     }
 
@@ -76,11 +67,12 @@ public class BuildingSpawner : ObjectPool
         if (_pool[randomBuild].gameObject.activeSelf == false)
         {
             build = _pool[randomBuild];
-            return build != null;
         }
-
-        build = _pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
-
+        else
+        {
+            build = _pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
+        }
+           
         return build != null;
     }
 }

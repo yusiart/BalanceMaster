@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Building : MonoBehaviour
+[RequireComponent(typeof(BuildingMover))]
+public class Building : Object
 {
-    public void Destroy()
-    {
-        gameObject.SetActive(false);
-    }
 }

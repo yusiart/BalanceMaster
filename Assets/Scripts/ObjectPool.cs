@@ -1,14 +1,28 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
+    [SerializeField] protected List<GameObject> _gameObjectTemplates;
+    [SerializeField] protected float _timeToSpawn;
+    [SerializeField] protected List<Transform> _spawnPoints;
+    
     [SerializeField] private GameObject _container;
     [SerializeField] private int _capacity;
 
+    protected float _timer;
     protected List<GameObject> _pool = new List<GameObject>();
+
+    private void Awake()
+    {
+        foreach (var template in _gameObjectTemplates)
+        {
+            Initialize(template);
+        }
+    }
 
     protected void Initialize(GameObject prefab)
     {
