@@ -71,6 +71,17 @@
      <Compile Include="Assets\Bird Flocks\Scripts\LandingSpot.cs" />
      <Compile Include="Assets\Bird Flocks\Scripts\LandingSpotController.cs" />
      <Compile Include="Assets\Fog\Fix\FixMobileDepth.cs" />
+     <Compile Include="Assets\MixamoAnimation\Melee Axe Pack\Demo\CameraScroll.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\ETFXTarget.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Particle\Demo\Scripts\VFX Library\UICanvasManager.cs" />
      <Compile Include="Assets\Scripts\Bird\Bird.cs" />
      <Compile Include="Assets\Scripts\Bird\BirdMover.cs" />
      <Compile Include="Assets\Scripts\Bird\BirdSpawner.cs" />
@@ -84,14 +95,15 @@
      <Compile Include="Assets\Scripts\Coin\CoinMover.cs" />
      <Compile Include="Assets\Scripts\Coin\CoinSpawner.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Ground.cs" />
      <Compile Include="Assets\Scripts\Object.cs" />
      <Compile Include="Assets\Scripts\ObjectMover.cs" />
      <Compile Include="Assets\Scripts\ObjectPool.cs" />
-     <Compile Include="Assets\Scripts\Player\Gravity.cs" />
      <Compile Include="Assets\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMover.cs" />
      <Compile Include="Assets\Scripts\UI\Menu.cs" />
      <Compile Include="Assets\Scripts\UI\MoneyDisplay.cs" />
+     <Compile Include="Assets\UI\Resources\Script\SliderValuePass.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Particle\Prefabs\Environment\Environment FX.txt" />
      <None Include="Assets\Bird Flocks\Toon Assets\Shaders\VertexColorDiffuse.shader" />
@@ -101,10 +113,12 @@
      <None Include="Assets\Bird Flocks\Toon Assets\Shaders\VertexColorToonSimpleTransparent.shader" />
      <None Include="Assets\Car\Standard Assets\divers\VignettingShader.shader" />
      <None Include="Assets\Bird Flocks\Included Assets\Unluck Software Feather Particles\Feathers - Readme.txt" />
+     <None Include="Assets\SkyBox\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\Bird Flocks\Toon Assets\Shaders\VertexColorTransparent.shader" />
      <None Include="Assets\Bird Flocks\Toon Assets\Shaders\VertexColorToonTransparent.shader" />
      <None Include="Assets\Fog\Advanced Fog\Advanced Vertical Fog.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Controllers\READ ME.txt" />
      <None Include="Assets\Bird Flocks\Toon Assets\Shaders\VertexColorToonSimple.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\Particle\Prefabs\Interactive\Interactive FX.txt" />
@@ -114,11 +128,13 @@
      <None Include="Assets\Bird Flocks\Shaders\Normal-Diffuse-NoCull.shader" />
      <None Include="Assets\Car\Standard Assets\divers\DepthOfFieldDX11.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\SkyBox2\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Car\Standard Assets\divers\SeparableBlur.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Car\Standard Assets\divers\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Just Wires\description.txt" />
      <None Include="Assets\Car\Standard Assets\divers\DepthOfFieldScatter.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Bird Flocks\Toon Assets\Shaders\VertexColor.shader" />
@@ -706,6 +722,36 @@
  <Reference Include="Boo.Lang">
  <HintPath>/Users/yuravishnyakov/Games/2019.4.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="LeanCommonPlus.csproj">
+      <Project>{59B4D721-9D31-7B48-84FA-344E038731F7}</Project>
+      <Name>LeanCommonPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{5240F82A-F7CD-65D1-4E67-8C8B0D17013B}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouchPlus.csproj">
+      <Project>{86174BA7-5D28-BA22-D6B9-9C105C8D42C0}</Project>
+      <Name>LeanTouchPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
+      <Project>{28CDBA51-776A-48E6-741A-54F2C59A9A9D}</Project>
+      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{678EA60C-06E6-CEA0-25DE-37499B9A3E3C}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{08BE1627-222F-0508-0981-93D976CC5338}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{A2268CD1-A88F-117A-E2E7-FD0C617C28A4}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

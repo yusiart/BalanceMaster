@@ -6,38 +6,38 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [SerializeField] protected List<GameObject> _gameObjectTemplates;
-    [SerializeField] protected float _timeToSpawn;
-    [SerializeField] protected List<Transform> _spawnPoints;
+    [SerializeField] protected List<GameObject> GameObjectTemplates;
+    [SerializeField] protected float TimeToSpawn;
+    [SerializeField] protected List<Transform> SpawnPoints;
     
     [SerializeField] private GameObject _container;
     [SerializeField] private int _capacity;
 
-    protected float _timer;
-    protected List<GameObject> _pool = new List<GameObject>();
+    protected float Timer;
+    protected List<GameObject> Pool = new List<GameObject>();
 
     private void Awake()
     {
-        foreach (var template in _gameObjectTemplates)
+        foreach (var template in GameObjectTemplates)
         {
             Initialize(template);
         }
     }
 
-    protected void Initialize(GameObject prefab)
+    private void Initialize(GameObject prefab)
     {
         for (int i = 0; i < _capacity; i++)
         {
             GameObject spawned = Instantiate(prefab, _container.transform);
             spawned.gameObject.SetActive(false);
 
-            _pool.Add(spawned);
+            Pool.Add(spawned);
         }
     }
 
     protected bool TryToGetObject(out GameObject result)
     {
-        result = _pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
+        result = Pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
         
         return result != null;
     }

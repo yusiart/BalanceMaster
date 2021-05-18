@@ -678,6 +678,34 @@
       <Project>{01BE4D8E-BDA5-8EF0-62B6-F911F08CD4CA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommonPlus.csproj">
+      <Project>{59B4D721-9D31-7B48-84FA-344E038731F7}</Project>
+      <Name>LeanCommonPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{5240F82A-F7CD-65D1-4E67-8C8B0D17013B}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouchPlus.csproj">
+      <Project>{86174BA7-5D28-BA22-D6B9-9C105C8D42C0}</Project>
+      <Name>LeanTouchPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
+      <Project>{28CDBA51-776A-48E6-741A-54F2C59A9A9D}</Project>
+      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{678EA60C-06E6-CEA0-25DE-37499B9A3E3C}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{08BE1627-222F-0508-0981-93D976CC5338}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{A2268CD1-A88F-117A-E2E7-FD0C617C28A4}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

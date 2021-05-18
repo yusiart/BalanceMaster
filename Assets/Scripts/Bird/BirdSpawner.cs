@@ -1,27 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class BirdSpawner : ObjectPool
 {
+    private void Start()
+    {
+        InvokeRepeating("IncreasingComplexity", 15f,15f);
+    }
+
     private void Update()
     {
-        _timer += Time.deltaTime;
+        Timer += Time.deltaTime;
 
-        if (_timer > _timeToSpawn)
+        if (Timer > TimeToSpawn)
         {
             if (TryToGetObject(out GameObject bird))
             {
                 SetActiveBird(bird);
-                _timer = 0f;
+                Timer = 0f;
             }
         }
     }
 
+    private void IncreasingComplexity()
+    {
+        if (TimeToSpawn < 0.3f)
+            return;
+        
+        TimeToSpawn -= 0.2f;
+    }
+
     private void SetActiveBird(GameObject bird)
     {
-        int randomSpawnPoint = Random.Range(0, _spawnPoints.Count);
+        int randomSpawnPoint = Random.Range(0, SpawnPoints.Count);
         bird.gameObject.SetActive(true);
-        bird.transform.position = _spawnPoints[randomSpawnPoint].transform.position;
+        bird.transform.position = SpawnPoints[randomSpawnPoint].transform.position;
     }
 }

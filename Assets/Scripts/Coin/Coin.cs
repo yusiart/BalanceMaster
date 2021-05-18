@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Coin : Object
 {
@@ -8,6 +9,7 @@ public class Coin : Object
     public int GetReward()
     {
         Instantiate(_collectCoin, transform.position, Quaternion.identity);
+
         return _coinPrice;
     }
 }

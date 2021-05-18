@@ -1,0 +1,8 @@
+Simple modular wires decision for your games. 
+  Modular parts can be combined in different variations.
+There are also switcher and socket,  made in soviet style. 
+2 texture sets :(albedo, roughness, metallic and normal textures),1 for modular wires and 1 for socket and switcher,  you can also choose the resolution of textures (from 256x 256 px up to 2048 x 2048px).
+Meshes are low-poly and optimised 
+  You can also scale models by their length without loss of quality!
+
+This asset will be periodically updated with more new content

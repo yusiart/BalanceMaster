@@ -6,22 +6,22 @@ public class CoinSpawner : ObjectPool
 {
     private void Update()
     {
-        _timer += Time.deltaTime;
+        Timer += Time.deltaTime;
 
-        if (_timer > _timeToSpawn)
+        if (Timer > TimeToSpawn)
         {
             if (TryToGetObject(out GameObject coin))
             {
                 SetActiveCoin(coin);
-                _timer = 0f;
+                Timer = 0f;
             }
         }
     }
 
     private void SetActiveCoin(GameObject coin)
     {
-        int randomSpawnPoint = Random.Range(0, _spawnPoints.Count);
+        int randomSpawnPoint = Random.Range(0, SpawnPoints.Count);
         coin.gameObject.SetActive(true);
-        coin.transform.position = _spawnPoints[randomSpawnPoint].transform.position;
+        coin.transform.position = SpawnPoints[randomSpawnPoint].transform.position;
     }
 }

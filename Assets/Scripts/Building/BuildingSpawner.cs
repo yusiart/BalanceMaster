@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 
 public class BuildingSpawner : ObjectPool
 {
     [SerializeField] private int _generatedBuildingCount;
+    [SerializeField] private float _buildingOffset;
 
     private float _distanceBetweenBuilding;
 
@@ -16,12 +15,12 @@ public class BuildingSpawner : ObjectPool
 
     private void Update()
     {
-        _timer += Time.deltaTime;
+        Timer += Time.deltaTime;
 
-        if (_timer > _timeToSpawn)
+        if (Timer > TimeToSpawn)
         {
             InstantiateBuildings();
-            _timer = 0f;
+            Timer = 0f;
         }
     }
 
@@ -36,43 +35,58 @@ public class BuildingSpawner : ObjectPool
     {
         for (int i = 0; i < _generatedBuildingCount; i++)
         {
-            foreach (var spawnPoint in _spawnPoints)
+            foreach (var spawnPoint in SpawnPoints)
             {
-                if (TryGetRandomBuilding(out GameObject building))
+                if (TryGetBuilding(out GameObject building))
                 {
                     SetActiveBuilding(building, spawnPoint);
                     building.transform.position -= new Vector3(0, 0, _distanceBetweenBuilding);
                 }
             }
 
-            _distanceBetweenBuilding += 15;
+            _distanceBetweenBuilding += _buildingOffset;
         }
     }
     
     private void InstantiateBuildings()
     {
-        foreach (var spawnPoint in _spawnPoints)
+        foreach (var spawnPoint in SpawnPoints)
         {
-            if (TryGetRandomBuilding(out GameObject building))
+            if (TryGetBuilding(out GameObject building))
             {
                 SetActiveBuilding(building, spawnPoint);
             }
         }
     }
 
-    private bool TryGetRandomBuilding(out GameObject build)
+    private bool TryGetBuilding(out GameObject build)
     {
-        int randomBuild = Random.Range(0, _pool.Count);
-
-        if (_pool[randomBuild].gameObject.activeSelf == false)
+        if (TryGetRandomBuilding(out GameObject building))
         {
-            build = _pool[randomBuild];
+            build = building;
         }
         else
         {
-            build = _pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
+            build = Pool.FirstOrDefault(p => p.gameObject.activeSelf == false);
         }
            
         return build != null;
+    }
+
+    private bool TryGetRandomBuilding(out GameObject building)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+           int randomBuild = Random.Range(0, Pool.Count);
+
+           if (Pool[randomBuild].gameObject.activeSelf == false)
+           {
+               building = Pool[randomBuild];
+               return true;
+           }
+        }
+
+        building = null;
+        return false;
     }
 }

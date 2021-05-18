@@ -6,22 +6,22 @@ public class CarSpawner : ObjectPool
 {
     private void Update()
     {
-        _timer += Time.deltaTime;
+        Timer += Time.deltaTime;
 
-        if (_timer > _timeToSpawn)
+        if (Timer > TimeToSpawn)
         {
             if (TryToGetObject(out GameObject car))
             {
-                SetActiveCoin(car);
-                _timer = 0f;
+                SetActiveCar(car);
+                Timer = Random.Range(0, TimeToSpawn - 1);
             }
         }
     }
 
-    private void SetActiveCoin(GameObject car)
+    private void SetActiveCar(GameObject car)
     {
-        int randomSpawnPoint = Random.Range(0, _spawnPoints.Count);
+        int randomSpawnPoint = Random.Range(0, SpawnPoints.Count);
         car.gameObject.SetActive(true);
-        car.transform.position = _spawnPoints[randomSpawnPoint].transform.position;
+        car.transform.position = SpawnPoints[randomSpawnPoint].transform.position;
     }
 }

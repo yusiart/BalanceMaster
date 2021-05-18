@@ -1,15 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Gravity))]
 [RequireComponent(typeof(PlayerMover))]
 [RequireComponent(typeof(Rigidbody))]
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float _bounceForce;
-    [SerializeField] private float _boanceRadius;
-    [SerializeField] private ParticleSystem _particle;
-    
+    [SerializeField] private float _fallForce;
+    [SerializeField] private float _fallRadius;
+    [SerializeField] private ParticleSystem _collisionEffect;
+    [SerializeField] private GameObject _gameOverPanel;
+
+    private Animator _animator;
     private int _money;
     private Rigidbody _rigidbody;
 
@@ -18,8 +20,10 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        MoneyChanged?.Invoke(_money);
+        _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        
+        MoneyChanged?.Invoke(_money);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,22 +36,28 @@ public class Player : MonoBehaviour
         }
         else if(other.gameObject.TryGetComponent(out Bird bird))
         {
-            Smash();
+            Crash();
         }
     }
 
-    public void Die()
-    {
-        PlayerDied?.Invoke(_money);
-    }
-
-    public void Smash()
+    private void Crash()
     {
         _rigidbody.constraints = RigidbodyConstraints.None;
-
-        Instantiate(_particle, transform);
-        _rigidbody.isKinematic = false;
-        _rigidbody.AddExplosionForce(_bounceForce, transform.position + new Vector3(0, -1, 1), _boanceRadius);
         
+        _animator.SetBool("IsCrushed", true);
+
+        Instantiate(_collisionEffect, transform);
+        _rigidbody.isKinematic = false;
+        _rigidbody.AddExplosionForce(_fallForce, transform.position + new Vector3(0, -1, 1), _fallRadius);
+
+        StartCoroutine(nameof(Die));
+    }
+
+    private IEnumerator Die()
+    {
+        yield return new WaitForSeconds(1f);
+        
+        _gameOverPanel.SetActive(true);
+        PlayerDied?.Invoke(_money);
     }
 }

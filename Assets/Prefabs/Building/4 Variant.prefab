@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5083add2d714d63b884fbc8530e0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 2.5
+  Speed: 0
 --- !u!114 &1220920347989680542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 477244, guid: 75ce498590d12b14b97bb91249eee61b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.54
+      value: 0.549
       objectReference: {fileID: 0}
     - target: {fileID: 477244, guid: 75ce498590d12b14b97bb91249eee61b, type: 3}
       propertyPath: m_LocalScale.x

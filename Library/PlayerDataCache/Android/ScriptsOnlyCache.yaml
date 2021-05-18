@@ -1,0 +1,1704 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Bird
+    - BirdMover
+    - BirdSpawner
+    - Building
+    - BuildingMover
+    - BuildingSpawner
+    - Car
+    - CarMover
+    - CarSpawner
+    - Coin
+    - CoinMover
+    - CoinSpawner
+    - Destroyer
+    - FixMobileDepth
+    - FlockChild
+    - Ground
+    - Menu
+    - MoneyDisplay
+    - Player
+    - PlayerMover
+    - SliderValuePass
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11226}
+    - Class: 114
+      Script: {instanceID: 11230}
+    - Class: 114
+      Script: {instanceID: 11232}
+    - Class: 114
+      Script: {instanceID: 11234}
+    - Class: 114
+      Script: {instanceID: 11236}
+    - Class: 114
+      Script: {instanceID: 11326}
+    - Class: 114
+      Script: {instanceID: 11414}
+    - Class: 114
+      Script: {instanceID: 11444}
+    - Class: 114
+      Script: {instanceID: 11520}
+    - Class: 114
+      Script: {instanceID: 11718}
+    - Class: 114
+      Script: {instanceID: 11886}
+    - Class: 114
+      Script: {instanceID: 11946}
+    - Class: 114
+      Script: {instanceID: 12050}
+    - Class: 114
+      Script: {instanceID: 12084}
+    - Class: 114
+      Script: {instanceID: 12110}
+    - Class: 114
+      Script: {instanceID: 12130}
+    - Class: 114
+      Script: {instanceID: 12174}
+    - Class: 114
+      Script: {instanceID: 12468}
+    - Class: 114
+      Script: {instanceID: 12612}
+    - Class: 114
+      Script: {instanceID: 12684}
+    - Class: 114
+      Script: {instanceID: 12880}
+    - Class: 114
+      Script: {instanceID: 12896}
+    - Class: 114
+      Script: {instanceID: 12926}
+    - Class: 114
+      Script: {instanceID: 13084}
+    - Class: 114
+      Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13164}
+    - Class: 114
+      Script: {instanceID: 13246}
+    - Class: 114
+      Script: {instanceID: 13362}
+    - Class: 114
+      Script: {instanceID: 13452}
+    - Class: 114
+      Script: {instanceID: 13462}
+    - Class: 114
+      Script: {instanceID: 13486}
+    - Class: 114
+      Script: {instanceID: 13514}
+    - Class: 114
+      Script: {instanceID: 13662}
+    - Class: 114
+      Script: {instanceID: 13730}
+    - Class: 114
+      Script: {instanceID: 13752}
+    - Class: 114
+      Script: {instanceID: 13770}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 40c7e7f1a2edc2c9a8f8b3dda0fe5aad
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanPongBall
+  - hash:
+      serializedVersion: 2
+      Hash: 47813da322a941b83761134dfbd53b94
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSpawnWithFinger
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 203fed2c689d819bfab67d217c628445
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 13f8f373b951cbaf0f891949929b196a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectMover
+  - hash:
+      serializedVersion: 2
+      Hash: b41f6a02beff5d31b9210834dce1767e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICanvasManager
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: de2bc3b7a3235a461783cc23b3f69c74
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanTwistCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8cf731e064eb980de8b1cbe8986b6dec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BirdSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: b8e4eaaf448c4a0ba66e09a6a266584d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanLastUpCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 5d89e2bacb4b183bce139f3b3d909bcf
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanGestureToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 3769ba057f57d23248b9f356132dcf22
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanShapeDetector
+  - hash:
+      serializedVersion: 2
+      Hash: c03dffc1252fa83853f49233af62afa3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlockWaypointTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b8e4eaaf448c4a0ba66e09a6a266584d
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerDown
+  - hash:
+      serializedVersion: 2
+      Hash: a6ee6b4cfdcf1e0b05e9b22bc6afc791
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainToBox
+  - hash:
+      serializedVersion: 2
+      Hash: ef3bef8506d4128109eabf7f15bde4eb
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectSelf
+  - hash:
+      serializedVersion: 2
+      Hash: be1c00e5ed116af1b3e1e66b3d1f8b8b
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanManualTranslate
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5e2a904333947b832bf0b46546468bc2
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanManualRescale
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bird
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ac7eafff0b03da5749081193d699ab28
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFormatText
+  - hash:
+      serializedVersion: 2
+      Hash: 3996654d0f7b91831147ed684314759c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoneyDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 096a50f6a3d89528ac732e9bb63631c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ETFXSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1479a28460ac4555102a0bb4c1e87a2b
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableTime
+  - hash:
+      serializedVersion: 2
+      Hash: 0e2e6864a04456aa633fd9b76b28ee2d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelected
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 5058e62971372d10db24fe80294c7a3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ETFXProjectileScript
+  - hash:
+      serializedVersion: 2
+      Hash: 1ea55d7abe2307363a713249b70fc2ed
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common.Examples
+    className: LeanGuide
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d8b8560f3f696ef8cee90373f9baffae
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelect
+  - hash:
+      serializedVersion: 2
+      Hash: fcf12f28f5827567b1a7c408ff480a64
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerTapExpired
+  - hash:
+      serializedVersion: 2
+      Hash: 6d383ac7bba249ffc8b702aff5b653b7
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanRandomEvents
+  - hash:
+      serializedVersion: 2
+      Hash: dfa2fc8127c72d10ada02d88d89a048c
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiSwipe
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f62dcae39ad4413b4d7e6f45e39b3ff7
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTwistRotateAxis
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ad1482a54d04c8558f245b43c88a64b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: ee4e4134acfa8eef41e8cfc51fda3e6c
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common
+    className: LeanRoll
+  - hash:
+      serializedVersion: 2
+      Hash: f10d468f1ab0d7dada1e6f5fcac0c6cb
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common
+    className: LeanDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 29b2360da16b435c1efd6aef0bbeeae8
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainLocalPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 13f8f373b951cbaf0f891949929b196a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinMover
+  - hash:
+      serializedVersion: 2
+      Hash: 2ac08c3a4781b792a2ffab07b996f27e
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanModifyFloat
+  - hash:
+      serializedVersion: 2
+      Hash: ed228351b76b5af705c5ba7a49fb9281
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragDeformMesh
+  - hash:
+      serializedVersion: 2
+      Hash: eccae36e8ebed7adc6e1900f26fbd283
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SmoothCameraOrbit
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0e2e6864a04456aa633fd9b76b28ee2d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDeselected
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: f5d15aed0327813d8dd40f68f1972452
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanSpawnBetween
+  - hash:
+      serializedVersion: 2
+      Hash: 6fc58e63e69705c3f7f5219cb46d8d6e
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainToDirection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 332ca07f929e4c94bd18ac36d7dfebbf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LandingSpot
+  - hash:
+      serializedVersion: 2
+      Hash: d941ab6dd93d37ffdf2277f2ea2375a0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8c8da5ebfe5f79628bfed5452fde122a
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanRotateToPosition
+  - hash:
+      serializedVersion: 2
+      Hash: eb5c100c663f4902ad2150237a9d1dfe
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerTapQuick
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: be312a0a6ad731f418a4cc31c3f60b2a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMover
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 6c1ab29ddfcd6014cccb0aadc55da469
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common
+    className: LeanPlane
+  - hash:
+      serializedVersion: 2
+      Hash: a0be7bdd09a2f446702af1127a1e5c64
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMouseWheel
+  - hash:
+      serializedVersion: 2
+      Hash: b09c94e6d945873215985da6b3ea5dc9
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragLine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
+  - hash:
+      serializedVersion: 2
+      Hash: ee6a55fd6f4f0f59591afbf34813acf4
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerSwipe
+  - hash:
+      serializedVersion: 2
+      Hash: 3a13fc0a4c17d83b73bb8c3dfebe8fef
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableCenter
+  - hash:
+      serializedVersion: 2
+      Hash: 6b0365728da0659ead138e33836038d2
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanReplayFinger
+  - hash:
+      serializedVersion: 2
+      Hash: 272d716800bf643a87f0f8665c096c5e
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiPinch
+  - hash:
+      serializedVersion: 2
+      Hash: 303ad70ce203ad874efe2965d0fbcff9
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsEventTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 7fb9de8dcf73854b6b328eca1f7a6e6d
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Boxophobic.Utils.Scripts.dll
+    namespaceName: 
+    className: StyledScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: b8e4eaaf448c4a0ba66e09a6a266584d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanLastUp
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cb88b70dd4a0a3fd91642af63477915b
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common.Examples
+    className: LeanUpgradeEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 48a7f0aa1e09fb60df047423c974aa5d
+    assemblyName: Boxophobic.Utils.Scripts.dll
+    namespaceName: Boxophobic.Utils
+    className: SettingsData
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Car
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 8b711ca7af6bcc617d993b4201989a99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 2a3796eb76dfd8ab29cbaa5dc9db9ece
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiDown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Destroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 4f6b6bef0fe650f2a17ea566ec46a0e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScroll
+  - hash:
+      serializedVersion: 2
+      Hash: 78db5470ce10487c2c0a296308e15032
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanChaseRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 3b4d4cc670ec8fcb8b4f4d7ddb4c45ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LandingButtons
+  - hash:
+      serializedVersion: 2
+      Hash: b5aaf686465544e9e949e46e293afee1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EpicToonFX
+    className: ETFXMouseOrbit
+  - hash:
+      serializedVersion: 2
+      Hash: 0912db8419735ecb16044b834208729d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EpicToonFX
+    className: ETFXLoopScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9fa74bdc972e293802cba46127eda51e
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDropCount
+  - hash:
+      serializedVersion: 2
+      Hash: 4261f613d4f92161f97a32857c6e23f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnluckDistanceDisabler
+  - hash:
+      serializedVersion: 2
+      Hash: da10272a1b558a442517b7b4245ccc06
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanPitchYaw
+  - hash:
+      serializedVersion: 2
+      Hash: 9003f5acf7f6d8d66621c38d4fe4413a
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanPulseScale
+  - hash:
+      serializedVersion: 2
+      Hash: 87d4dd59fc1a7beaa178e17ad59b49c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlockChildSound
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 73e781b4dabc6ba491bb06ebb8485664
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 6f41c321a64cc756e7376dfaaa0afcaf
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTwistRotate
+  - hash:
+      serializedVersion: 2
+      Hash: bfc06a6260dd569aa483253e4f042337
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiDirection
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 32cee6aea50ca79a1ef512e2cb8dbf18
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiTap
+  - hash:
+      serializedVersion: 2
+      Hash: d4ba64aacfd7025ea257c5b82c5bf9da
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanManualFlick
+  - hash:
+      serializedVersion: 2
+      Hash: 94787cde64aea8d2ddd6cf5584f4b697
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanInfoText
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Analytics.Editor.dll
+    namespaceName: UnityEditor.Analytics
+    className: AnalyticsEventTrackerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 2a3796eb76dfd8ab29cbaa5dc9db9ece
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiUp
+  - hash:
+      serializedVersion: 2
+      Hash: e888ef4305b8fac9cd5510fefa0636bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EpicToonFX
+    className: ETFXFireProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 7c5d03d32c7c864e5cee46c60824be93
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanPitchYawAutoRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: f43f5f44cc830e01e3a475ec4ba01527
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlockScare
+  - hash:
+      serializedVersion: 2
+      Hash: 730b5ec11882948cb26a5d523e824d77
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableDrop
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SliderValuePass
+  - hash:
+      serializedVersion: 2
+      Hash: 51fbdcc153abbecd64f3aea0b890179e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookAtCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 768ca8057a37c4862b2c7ea9159ec119
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTranslateRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: c725093e65489908afef5f3112b71fd6
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanManualTranslateRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 392751f7657b9171736bd9b7261eb1cb
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerDownCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: a4a8c6224b1d84d71178bfc703041187
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragSelect
+  - hash:
+      serializedVersion: 2
+      Hash: 8025ea5570eeb47fe7e967a49221e9b8
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableDial
+  - hash:
+      serializedVersion: 2
+      Hash: 13f8f373b951cbaf0f891949929b196a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarMover
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 4691c6be9c9ae8ed61d75186f60a5bd4
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDrop
+  - hash:
+      serializedVersion: 2
+      Hash: 964dce81080816542d4e5b1440191200
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTouch
+  - hash:
+      serializedVersion: 2
+      Hash: 8cf731e064eb980de8b1cbe8986b6dec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 217f7a5199e69f2eb9258c8ed8787c33
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlockController
+  - hash:
+      serializedVersion: 2
+      Hash: 666b15f26a11936abb8aa5a0ae25adf4
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableSelected
+  - hash:
+      serializedVersion: 2
+      Hash: 1cb3f011a31c95bb21adef2932c142e9
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectedText
+  - hash:
+      serializedVersion: 2
+      Hash: 47e90184f361f3e93e55e1c4c75ee367
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlockChild
+  - hash:
+      serializedVersion: 2
+      Hash: 768ca8057a37c4862b2c7ea9159ec119
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTranslateRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 4abb42134c98d19ba1f78cfa108f6dce
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanSwap
+  - hash:
+      serializedVersion: 2
+      Hash: 40b1cdd88abc88f8ee714b9bfc4d5da1
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanManualVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 5d0aa4ee546910ab399520993f950984
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanChaseRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 42fe00222779b82a8d29c7bc73497e09
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDragCamera
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c97e074148e13a48c7e2b893366ef171
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainToAxis
+  - hash:
+      serializedVersion: 2
+      Hash: d4fe30bbc5ccf5503e9701ad8210ad8d
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanDelayedValue
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ed0086bd4d9f3ad47b08d6840d92bcbc
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiPull
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 2bdbdfd29ae156a056b41a2a9bfe43ab
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainToColliders
+  - hash:
+      serializedVersion: 2
+      Hash: 13f8f373b951cbaf0f891949929b196a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BirdMover
+  - hash:
+      serializedVersion: 2
+      Hash: e2efc7cfa5234245c18c3065917d8945
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common
+    className: LeanPath
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 003f3e894b4e5f99d2fa47238a01d5be
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectable
+  - hash:
+      serializedVersion: 2
+      Hash: af00771d3bde5c5f351de55bdf8a101b
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanManualSwipe
+  - hash:
+      serializedVersion: 2
+      Hash: e2f52a2fa7324153bdf87724213b6ac4
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerOld
+  - hash:
+      serializedVersion: 2
+      Hash: b41746fed288bbfefc76b73a5632ec38
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanManualTorque
+  - hash:
+      serializedVersion: 2
+      Hash: 75260295474ef2d59d34196afb2549aa
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanManualVelocity2D
+  - hash:
+      serializedVersion: 2
+      Hash: 432e4b09477a4e93dc84ecb0b7e70188
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanLoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: 9792c55d56d8d27750888c88bf3e3b55
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanSmoothedValue
+  - hash:
+      serializedVersion: 2
+      Hash: 8e5e00ca42eeebc1eae2f91fabb1ee02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EpicToonFX
+    className: ETFXButtonScript
+  - hash:
+      serializedVersion: 2
+      Hash: 564363b71973ff9b7c6dafd1d3a1fcfb
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common.Examples
+    className: LeanLinkTo
+  - hash:
+      serializedVersion: 2
+      Hash: 254f15097e2a3f696d7840f0ef8a6263
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableCount
+  - hash:
+      serializedVersion: 2
+      Hash: a4900d574c1d1a9001f0f83b0dddb24d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParticleEffectsLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Building
+  - hash:
+      serializedVersion: 2
+      Hash: c5d69551fc1ea1e3224190d19f0150d4
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 5ec6a19abdaf9af998c1ee1d941367e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BuildingSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 660d2f70485872334bdd46055aedec14
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanPinchScale
+  - hash:
+      serializedVersion: 2
+      Hash: 769488cea16f17344a99aa536df1a5ef
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSwipeEdge
+  - hash:
+      serializedVersion: 2
+      Hash: 32cebb2ae4cddf0e4d07ddef22ca3a5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EpicToonFX
+    className: ETFXTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 8cf731e064eb980de8b1cbe8986b6dec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectPool
+  - hash:
+      serializedVersion: 2
+      Hash: 8001a5f7502aab37e42206da015e6914
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f2d22ac7c0b58fb80012af925c6865a9
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerFlick
+  - hash:
+      serializedVersion: 2
+      Hash: 151d0e71ab06a80cddec9cfc1aedfee9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LandingSpotController
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: Unity.Analytics.DataPrivacy.dll
+    namespaceName: UnityEngine.Analytics
+    className: DataPrivacyButton
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1a789b3e4759967465acf6dac8ed39dc
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainToCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: ec54355e8ab2c0b2323fbfc09e31bc70
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableDragTorque
+  - hash:
+      serializedVersion: 2
+      Hash: 0e252809328cc064433ebed8e03533e2
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectionBox
+  - hash:
+      serializedVersion: 2
+      Hash: 9277194e3007f91c41cc4dd392ebc5cb
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableSpriteRendererColor
+  - hash:
+      serializedVersion: 2
+      Hash: 8cf731e064eb980de8b1cbe8986b6dec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 4cfbbfc6416a7a18c41a929391789094
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerTap
+  - hash:
+      serializedVersion: 2
+      Hash: 1224cc885948c9cd7d593fab9efcb809
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanRotateToRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 24832ecf7b3fb3855242ca19c2f1c59d
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanOrbit
+  - hash:
+      serializedVersion: 2
+      Hash: 9bc7a6c8b73734d9ed7c4cf2fd08615b
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiHeld
+  - hash:
+      serializedVersion: 2
+      Hash: da7b6e691593d5ec1123fcbea9b88237
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanPinchCamera
+  - hash:
+      serializedVersion: 2
+      Hash: fb40c936b55b941f573f0c2d99c129a4
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanShape
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: daeb58fa6b05e5ee194e305937d8ec00
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanManualRotate
+  - hash:
+      serializedVersion: 2
+      Hash: a1046150ca0fe7af6d21565720571458
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanManualTranslateRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 13f8f373b951cbaf0f891949929b196a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BuildingMover
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 9277194e3007f91c41cc4dd392ebc5cb
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableGraphicColor
+  - hash:
+      serializedVersion: 2
+      Hash: ce3bcf11730b731fdb2aa807bd9d583d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Coin
+  - hash:
+      serializedVersion: 2
+      Hash: 62bfe4255f6ae57fa2ade8014cd8f50d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiUpdateCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: a251f5cd420914308d435db6b7bf31f7
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainToOrthographic
+  - hash:
+      serializedVersion: 2
+      Hash: 3605dd47426fca3cb8e11ffea29bce4d
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanRevertTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ground
+  - hash:
+      serializedVersion: 2
+      Hash: d14d0230748ad6437933c6501b91544c
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanMaintainDistance
+  - hash:
+      serializedVersion: 2
+      Hash: ba956cd002f286bd3f1422c7b8ccb6b6
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTranslate
+  - hash:
+      serializedVersion: 2
+      Hash: 9cf814b9f5b85429d24b39ed6fe70134
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanModifyVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 93eba1d696f29203b1e2bbd80e30edbf
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragColorMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 5c311837b2e42957d9c0c24faf655b19
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanThresholdDelta
+  - hash:
+      serializedVersion: 2
+      Hash: 0155f6cc026767841ef6c9bb6eef3faa
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanConstrainScale
+  - hash:
+      serializedVersion: 2
+      Hash: cc89a7f65b3dca64feddfd8acfa3294b
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectablePressureScale
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Object
+  - hash:
+      serializedVersion: 2
+      Hash: e2f52a2fa7324153bdf87724213b6ac4
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerUp
+  - hash:
+      serializedVersion: 2
+      Hash: b8e4eaaf448c4a0ba66e09a6a266584d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFirstDown
+  - hash:
+      serializedVersion: 2
+      Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 5fb9979094c95713dcb773415b99347f
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectedCount
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Boxophobic.Utils.Scripts.dll
+    namespaceName: 
+    className: StyledMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 4e0bfd1d29eec1f3cda6b997a7d81004
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTrail
+  - hash:
+      serializedVersion: 2
+      Hash: c656948a24529b4f6f11cfe0104cd755
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanMultiTwist
+  - hash:
+      serializedVersion: 2
+      Hash: 24b2edb739e02ab9678256f4cc52b87d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PEButtonScript
+  - hash:
+      serializedVersion: 2
+      Hash: 1b532937502bcabe9d080a3f3f03245e
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectedRatio
+  - hash:
+      serializedVersion: 2
+      Hash: 39a9bb9768c8206c97dc997d364a6275
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common
+    className: LeanSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: b8e4eaaf448c4a0ba66e09a6a266584d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFirstDownCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 78db5470ce10487c2c0a296308e15032
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanChase
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixMobileDepth
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8033726f55d20cd376ee54d2cc7cce9d
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerHeld
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 330f62fcfa21b2047340eab154927cfc
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableRendererColor
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 751d262f4532faa9de14fe54dbf1dd75
+    assemblyName: LeanTouchPlus.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTranslateAlong
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c070877bbc1ddb06d18999d94ef371b3
+    assemblyName: LeanCommonPlus.dll
+    namespaceName: Lean.Common
+    className: LeanThresholdPosition
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: /Users/yuravishnyakov/Projects/BalanceMaster/BalanceMaster77.apk
